@@ -8,7 +8,7 @@
   test-data: |
     Email: user@yandex.ru
     Password: Rx2b#wsn8%
-  steps: |
+  steps: 
     - Нажимаем на кнопку "Sign in"
     - Вводим почту
     - Вводим пароль
@@ -25,7 +25,7 @@
   test-data: |
     Email: user@elemail.com
     Password: EhEhEhEh2@
-  steps: |
+  steps: 
     - Нажимаем на кнопку "Sign in"
     - Вводим почту
     - Вводим пароль
@@ -44,7 +44,7 @@
     Email: user@yandex.ru
     Password: Rx2b#wsn8%
     Password Confirmation: Rx2b#wsn8%
-  steps: |
+  steps: 
     - Нажимаем на кнопку "Sign up"
     - Вводим Имя пользователя
     - Вводим почту
@@ -62,7 +62,7 @@
     Должна быть открыта основная страница сайта для зарегистрированных пользователей, пользователь должен быть авторизован
   test-data: |
     no data
-  steps: |
+  steps: 
     - Нажимаем на аватар пользователя
     - Нажимаем на кнопку "Sign Out"
   expected-result: |
@@ -79,7 +79,7 @@
     Game Type: With a bot
     Time control: 10 Min
     Поле "Choose task by name or tags": power_calculator
-  steps: |
+  steps: 
     - Нажимаем кнопку "CREATE A GAME"
     - Выбираем сложность
     - Выбираем тип игры
@@ -97,7 +97,7 @@
     Открыта основная страница сайта для зарегистрированных пользователей, пользователь авторизован
   test-data: |
     no data
-  steps: |
+  steps: 
     - Нажимаем на кнопку со знаком двух скрещенных мечей
   expected-result: |
     Появляется сообщение об отсутствии приглашений к игре
@@ -110,7 +110,7 @@
     Открыта главная страница сайта
   test-data: |
     Email: w@w.ru
-  steps: |
+  steps: 
     - Нажимаем кнопку "Sign in"
     - Нажимаем на предложение "Forgot your password?"
     - Вводим почту
@@ -126,7 +126,7 @@
     Открыта главная страница сайта
   test-data: |
     Email: user@mail.ru
-  steps: |
+  steps: 
     - Нажимаем кнопку "Sign in"
     - Нажимаем на предложение "Forgot your password?"
     - Вводим почту
@@ -142,7 +142,7 @@
     Открыта основная страница сайта, пользователь авторизован
   test-data: |
     no data
-  steps: |
+  steps: 
     - Нажимаем на кнопку "Tournaments"
     - Нажимаем на кнопку "History"
     - Нажимаем на кнопку "Lobby"
@@ -157,7 +157,7 @@
     Открыта основная страница сайта, пользователь авторизован
   test-data: |
     no data
-  steps: |
+  steps: 
     - Нажимаем кнопку "Month"
     - Нажимаем кнопку "All"
     - Нажимаем кнопку "Week"
@@ -175,7 +175,7 @@
     Game Type: With other user
     Time Control: 10 Min
     Поле "Choose task by name or tags": squares_and_cubes
-  steps: |
+  steps: 
     - Нажимаем кнопку "Create a game"
     - Выбираем уровень
     - Выбираем тип игры
